@@ -1,0 +1,152 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #f4b446;
+  font-family: 'Oxygen', sans-serif;
+ 
+}
+
+/** HEADER **/
+
+
+#header-nav {
+  background-color: #a40019 ;          
+  border-radius: 0;
+  border: 0;
+  min-height:75px;    /* added by me */
+}
+
+
+.navbar-brand p { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 5px;
+  margin-bottom: 0; 
+  line-height: .75;
+ }
+ 
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+.navbar-collapse{padding-left:0; padding-right:0;
+                   }
+
+ul li{border:1px solid black;}
+
+#nav-list {
+  margin: 0px;
+   }
+
+#nav-list a {
+  color: #1b1d1c;
+  background: #729628;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-toggle{ margin-top:20px;}
+
+
+#main-content{
+   text-align: justify;
+   margin-top:20px;
+   margin-bottom:15px;
+}
+
+#menu-categories-title {
+  margin-top:0px;
+  margin-bottom: 10px;  
+  color:#1b1d1c;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+
+.menu-item-title {
+  margin-top: 25px;
+  }
+
+
+.menu-item-tile {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  }
+  
+.menu-item-tile hr {
+  width: 80%;
+} 
+
+
+.menu-item-description {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+  text-align:center;
+} 
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+
+#dish1, #dish2, #dish3 {
+  background-color:#1b1d1c;}
+
+
+
+/* END SINGLE CATEGORY PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {   
+    .navbar-brand {padding-top: 25px;
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand {padding-top: 20px;
+}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {padding-top: 22px;
+}
+  h2{margin-top:50px;}
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ 
+  h2{margin-top:50px;}
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #main-content{
+   margin-right:30px;
+   margin-left:30px; 
+}
+
+}
+
+
+
+
+
